@@ -29,7 +29,7 @@ body {
 
 .icon-group-image {
   width: 100%;
-  display: block;
+  display: inline-block;
 }
 
 /* header */
@@ -86,6 +86,9 @@ nav a:hover {
   background-color: #939393;
 }
 
+
+
+
 /* banner content */
 
 h2 {
@@ -98,7 +101,7 @@ h2 {
 
 .banner {
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 h2 + p {
@@ -135,5 +138,59 @@ h2 + p {
 /* Link Cards */
 
 .link-cards {
-
+  overflow: hidden;
+  margin: 2rem 1rem 2rem 1rem;
+  float: left;
+  position: relative;
 }
+
+.link-cards p {
+  font-size: 1.5rem;
+  color: #000;
+  margin-top: -5rem;
+  margin-left: 2rem;
+  position: absolute;
+}
+
+/* Our Menu */
+
+h3 {
+  margin: 5rem 1rem 0rem 1rem;
+}
+
+p {
+  margin: .5rem 1rem 1rem 1rem;
+}
+
+.image-banner {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* Our Staff */
+
+.icon-card-image {
+  margin: 2rem 1rem 0rem 1rem;
+  overflow: hidden;
+}
+
+.icon-card1,
+.icon-card3 {
+  float: left;
+  position: relative;
+  margin-left: 1rem;
+  display: inline-block;
+  text-align: center;
+  min-width: 21rem;
+}
+
+.icon-card2,
+.icon-card4 {
+  position: relative;
+  margin-left: 1rem;
+  display: inline-block;
+  text-align: center;
+  min-width: 21rem;
+}
+
+/* Facts */
