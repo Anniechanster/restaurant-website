@@ -63,31 +63,82 @@ h1 {
 
 /* toggle */
 
-nav {
-  background-color: white;
-  display: none;
+li {
   list-style-type: none;
-  margin: 0;
-  padding: 1rem;
-  position: absolute;
-  right: 2rem;
+  position: relative;
+  float: right;
+  display: block;
   z-index: 10;
+}
+
+ul {
+  padding-left: 20rem;
+  height: 0;
+  width: 0;
+  right: 1.5rem;
+}
+
+.nav {
+  background-color: white;
+  position: absolute;
+  top: 2rem;
+  display: none;
 }
 
 nav a {
   display: block;
   text-align: center;
-  padding: 1rem;
+  background-color: white;
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+.nav a:hover {
+  color: white;
+  background-color: #333;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3rem;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1rem;
+  z-index: 10;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-open {
+  width: 100%;
+}
+
+.nav-close {
+  display: none;
   background-color: white;
 }
 
-nav a:hover {
-  color: white;
-  background-color: #939393;
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }
-
-
-
 
 /* banner content */
 
@@ -116,7 +167,6 @@ h2 + p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
 }
 
 .btn {
@@ -194,3 +244,20 @@ p {
 }
 
 /* Facts */
+
+.paragraph {
+  line-height: 1.5rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: #939393;
+  padding: 1rem 1rem 6rem 1rem;
+}
+
+footer small {
+  color: white;
+  display: block;
+  font-size: .75rem;
+}
