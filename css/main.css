@@ -93,7 +93,7 @@ nav a {
   display: block;
   text-align: left;
   background-color: white;
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem 3.5rem 1rem 3.5rem;
 }
 
 .nav a:hover {
@@ -194,7 +194,6 @@ h2 + p {
 .link-cards {
   overflow: hidden;
   margin: 2rem 1rem 2rem 1rem;
-  float: left;
   position: relative;
 }
 
