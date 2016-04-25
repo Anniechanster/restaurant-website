@@ -424,6 +424,8 @@ footer small {
 
   .linkcard img + p {
     font-size: .95rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
