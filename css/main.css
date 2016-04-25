@@ -204,7 +204,7 @@ h2 + p {
 /* Our Menu */
 
 h3 {
-  margin: 1rem 1rem 0rem 1rem;
+  margin: 1rem 1rem 0 1rem;
 }
 
 p {
@@ -232,13 +232,12 @@ p {
 /* Our Staff */
 
 .icon-card-image {
-  margin: 2rem 1rem 0rem 1rem;
+  margin: 2rem 1rem 0 1rem;
   overflow: hidden;
 }
 
 .icon-card1,
 .icon-card3 {
-  float: left;
   position: relative;
   margin-left: 1rem;
   display: inline-block;
@@ -267,7 +266,7 @@ p {
 /* Facts */
 
 .paragraph {
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 
 /* Footer */
