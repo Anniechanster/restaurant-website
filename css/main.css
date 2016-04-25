@@ -61,6 +61,10 @@ h1 {
   width: 100%;
 }
 
+.img-small {
+  display: none;
+}
+
 /* toggle */
 
 li {
@@ -290,15 +294,14 @@ footer small {
     line-height: 1.3;
   }
 
-  .banner-content {
-    width: 100%;
-    position: absolute;
-    text-align: left;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate (-50%, -50%);
+  .img-small {
+    display: none;
   }
+
+  .img-big {
+    display: inline-block;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -411,6 +414,14 @@ footer small {
 
   .icon-card4 {
     align-items: center;
+  }
+
+  .img-small {
+    display: inline-block;;
+  }
+
+  .img-big {
+    display: none;
   }
 
 }
