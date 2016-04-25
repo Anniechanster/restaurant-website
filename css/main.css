@@ -101,7 +101,7 @@ nav a {
 
 .nav a:hover {
   color: white;
-  background-color: #333;
+  background-color: black;
 }
 
 .nav-check {
@@ -208,6 +208,23 @@ h2 + p {
   position: absolute;
 }
 
+.linkcard img + p {
+  background-color: #939393;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 100%;
+  position: relative;
+  padding: 1.5rem;
+  overflow: hidden;
+}
+
+.linkcard img + p:hover {
+  color: white;
+  background-color: black;
+}
+
 /* Our Menu */
 
 h3 {
@@ -282,7 +299,7 @@ footer {
 }
 
 footer small {
-  color: black;
+  color: white;
   display: block;
   font-size: .75rem;
 }
@@ -405,6 +422,8 @@ footer small {
     display: none;
   }
 
+  .linkcard img + p {
+    font-size: .95rem;
 }
 
 @media only screen and (min-width: 60em) {
