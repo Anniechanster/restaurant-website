@@ -257,6 +257,11 @@ p {
 
 .staff-section {
   margin-top: 2rem;
+  text-align: center;
+}
+
+.staffp {
+  text-align: left;
 }
 
 /* Facts */
