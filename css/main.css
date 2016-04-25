@@ -70,30 +70,33 @@ h1 {
 li {
   list-style-type: none;
   position: relative;
-  float: right;
   display: block;
   z-index: 10;
+  text-align: center;
 }
 
 ul {
-  padding-left: 10rem;
-  height: 0;
-  width: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 2.5rem;
   right: 1.5rem;
+  z-index: 20;
 }
 
 .nav {
   background-color: white;
   position: absolute;
-  top: 2rem;
+  top: 3rem;
   display: none;
+  margin: 0;
 }
 
 nav a {
   display: block;
   text-align: left;
   background-color: white;
-  padding: 1rem 3.5rem 1rem 3.5rem;
+  padding: 1em 2em;
 }
 
 .nav a:hover {
@@ -331,43 +334,24 @@ footer small {
   .nav {
     display: block;
     top: .5rem;
-    right: 20rem;
+    right: 1rem;
     padding: 0;
     bottom: 3rem;
+    background-color: #939393;
   }
 
   .nav a {
-    padding: 0;
+    padding: .75rem;
     display: block;
     background-color: #939393;
     float: left;
   }
 
-  .nav a:hover {
-    padding: .2rem 1rem .2rem 1rem;
-    margin: 0;
-  }
-
   ul li {
-    display: block;
+    display: inline-block;
     padding: 0;
     margin-bottom: 0;
     margin-top: 0;
-  }
-
-  .li1 {
-    left: 4rem;
-    margin: 0;
-  }
-
-  .li2 {
-    left: 10rem;
-    bottom: 1.4rem;
-  }
-
-  .li3 {
-    left: 17rem;
-    bottom: 2.8rem;
   }
 
   .link-cards {
