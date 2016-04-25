@@ -61,6 +61,12 @@ h1 {
   width: 100%;
 }
 
+section:nth-child(odd) {
+  background-color: #f2f2f2;
+  margin: 1rem;
+  padding: .5rem;
+}
+
 /* toggle */
 
 li {
@@ -198,23 +204,31 @@ h2 + p {
   font-size: 1.5rem;
   color: #000;
   margin-top: -5rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
   position: absolute;
 }
 
 /* Our Menu */
 
 h3 {
-  margin: 5rem 1rem 0rem 1rem;
+  margin: 1rem 1rem 0rem 1rem;
 }
 
 p {
   margin: .5rem 1rem 1rem 1rem;
 }
 
-.image-banner {
+.image-flex {
   margin-left: 1rem;
   margin-right: 1rem;
+  position: relative;
+  margin-top: -5rem;
+  margin-left: 1rem;
+}
+
+.pl {
+  position: absolute;
+  margin: -5rem 1rem 1rem 1rem;
 }
 
 /* Our Staff */
@@ -332,6 +346,34 @@ footer small {
   .li3 {
     left: 17rem;
     bottom: 2.8rem;
+  }
+
+  .link-cards {
+    float: none;
+  }
+
+  .icon-group-item {
+    width: 32.7%;
+  }
+
+  .link-cards p {
+    font-size: 1.2rem;
+    color: #000;
+    margin-top: -3.5rem;
+    margin-left: 1rem;
+    position: absolute;
+  }
+
+  .icon-group-item:nth-child(1) {
+    display: inline-block;
+  }
+
+  .icon-group-item:nth-child(2) {
+    display: inline-block;
+  }
+
+  .icon-group-item:nth-child(3) {
+    display: inline-block;
   }
 
 }
